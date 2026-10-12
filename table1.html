@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Perkuliahan</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        h3 {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 2px;
+            border: 1px solid gray;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 4px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        .judul {
+            text-align: center;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .tengah {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>table1.html</h3>
+
+    <table>
+        <tr>
+            <th colspan="5" class="judul">
+                Jadwal Perkuliahan Semester 1
+            </th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Hari</th>
+            <th rowspan="2">Jam</th>
+            <th colspan="2">Mata Kuliah</th>
+            <th rowspan="2">Ruangan</th>
+        </tr>
+
+        <tr>
+            <th>Kode</th>
+            <th>Nama Mata Kuliah</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Senin</td>
+            <td>08:00 - 10:00</td>
+            <td>IF101</td>
+            <td>Pemrograman Web</td>
+            <td>Lab 1</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 12:00</td>
+            <td>IF102</td>
+            <td>Basis Data</td>
+            <td>Lab 2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Selasa</td>
+            <td>08:00 - 10:00</td>
+            <td>IF103</td>
+            <td>Algoritma</td>
+            <td>Ruang 201</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 12:00</td>
+            <td>IF104</td>
+            <td>Sistem Operasi</td>
+            <td>Ruang 202</td>
+        </tr>
+
+        <tr>
+            <td>13:00 - 15:00</td>
+            <td>IF105</td>
+            <td>Jaringan Komputer</td>
+            <td>Lab 3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Rabu</td>
+            <td>08:00 - 10:00</td>
+            <td>IF106</td>
+            <td>Pemrograman Mobile</td>
+            <td>Lab 4</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 12:00</td>
+            <td>IF107</td>
+            <td>Rekayasa Perangkat Lunak</td>
+            <td>Ruang 203</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">Kegiatan Akademik / Seminar</td>
+            <td>Aula</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">Total Mata Kuliah</th>
+            <th>7 Mata Kuliah</th>
+            <th>-</th>
+        </tr>
+    </table>
+
+</body>
+</html>
